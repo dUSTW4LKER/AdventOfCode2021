@@ -22,12 +22,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AdventOfCode2021.py" />
-    <Compile Include="Input\Day1-2.py" />
-    <Compile Include="Input\Day2-1.py" />
-    <Compile Include="Input\Day2-2.py" />
-    <Compile Include="Input\Day3-1.py" />
-    <Compile Include="Input\Day3-2.py" />
-    <Compile Include="Input\Day1-1.py" />
+    <Compile Include="Input\Day1.py" />
+    <Compile Include="Solution\Day1.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Input\" />

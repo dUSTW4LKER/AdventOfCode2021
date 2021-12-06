@@ -1,4 +1,4 @@
-input_measurements = [
+inputMeasurements = [
 	118,
 	121,
 	123,
