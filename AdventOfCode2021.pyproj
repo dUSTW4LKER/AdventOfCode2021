@@ -25,8 +25,10 @@
     <Compile Include="AdventOfCode2021.py" />
     <Compile Include="Input\Day1.py" />
     <Compile Include="Input\Day2.py" />
+    <Compile Include="Input\Day3.py" />
     <Compile Include="Solution\Day1.py" />
     <Compile Include="Solution\Day2.py" />
+    <Compile Include="Solution\Day3.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Input\" />
