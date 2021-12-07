@@ -1,4 +1,4 @@
-inputMeasurements = [
+day1InputData = [
 	118,
 	121,
 	123,

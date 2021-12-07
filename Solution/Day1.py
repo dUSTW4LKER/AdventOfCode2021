@@ -1,13 +1,13 @@
-from Input.Day1 import inputMeasurements
+from Input.Day1 import day1InputData
 
 def SolveDay1():
-	input0 = inputMeasurements.copy()
-	input1 = inputMeasurements.copy()
-	input2 = inputMeasurements.copy()
+	input0 = day1InputData.copy()
+	input1 = day1InputData.copy()
+	input2 = day1InputData.copy()
 
 	print ("Day 1.1: %d" %SolutionDay1_1(input0))
 	print ("Day 1.2: %d" %SolutionDay1_2forloop(input1))
-	print ("Day 1.2: %d" %SolutionDay1_2index(input2))
+	#print ("Day 1.2: %d" %SolutionDay1_2index(input2))
 
 def SolutionDay1_1(input):
 	previousInput = input.pop(0)

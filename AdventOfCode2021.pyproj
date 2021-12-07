@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>AdventOfCode2021</Name>
     <RootNamespace>AdventOfCode2021</RootNamespace>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,7 +24,9 @@
   <ItemGroup>
     <Compile Include="AdventOfCode2021.py" />
     <Compile Include="Input\Day1.py" />
+    <Compile Include="Input\Day2.py" />
     <Compile Include="Solution\Day1.py" />
+    <Compile Include="Solution\Day2.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Input\" />
@@ -31,6 +34,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>env</Id>
+      <Version>0.0</Version>
+      <Description>env (Python 3.10 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
